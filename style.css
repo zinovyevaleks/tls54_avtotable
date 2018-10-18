@@ -1191,10 +1191,12 @@ textarea.input_text {
     padding-bottom: 15px;
 }
 
-/* Таблица! */
+/*============================== Таблица! =============================*/
+
 
 .table_responsive {
     margin-bottom: 20px;
+
 }
 
 .table_responsive .input_wrapper {
@@ -1261,7 +1263,7 @@ textarea.input_text {
   }
 }
 
-/* Конец таблицы */
+/*================ Конец таблицы ==========================*/
 
 #content table {
     width: 100%;
