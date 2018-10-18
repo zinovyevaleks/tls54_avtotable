@@ -1,0 +1,1837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div id="content_wrapper" class="wrapper_block">
+    <div id="content" class="block">
+      <div class="title_big_lines">КАК МЫ ЭКОНОМИМ ВРЕМЯ И ДЕНЬГИ СВОИМ КЛИЕНТАМ?</div>
+      <div class="comparisons">
+        <div class="items flex">
+          <div class="item item__title">У ДИЛЕРА</div>
+          <div class="item item__title">В СПЕЦИАЛИЗИРОВАННОМ СЕРВИСНОМ ЦЕНТРЕ</div>
+
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/close.png" alt="">
+            <span>Дорогое обслуживание и ремонт</span>
+          </div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/icon_checked_red.png" alt="">
+            <span>Экономим более 70 % на обслуживании и ремонте авто, <br>например ТО 10 на Lexus RX300 - от 6500 ру</span>
+          </div>
+
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/close.png" alt="">
+            <span>Долгие сроки ТО и ремонта</span>
+          </div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/icon_checked_red.png" alt="">
+            <span>В 2 раза быстрее делаем ТО и ремонт за счет собственного склада <br>со всеми запасными частями</span>
+          </div>
+
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/close.png" alt="">
+            <span>Запрет на доступ в ремонтную зону</span>
+          </div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/icon_checked_red.png" alt="">
+            <span>Свободный доступ в ремонтную зону</span>
+          </div>
+
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/close.png" alt="">
+            <span>Гарантия производителя на автомобиль сохраняется</span>
+          </div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/icon_checked_red.png" alt="">
+            <span>Гарантия производителя на автомобиль сохраняется</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="title_big_lines">УЗНАЙТЕ СТОИМОСТЬ ВАШЕГО РЕМОНТА</div>
+
+      <form action="post">
+        <div class="calculation">
+
+          <div class="calculation__left">
+            <div class="calculation__title">МАРКА АВТО</div>
+
+            <div class="radio">
+              <div class="item">
+                <label>
+                  <input type="radio" name="marka">
+                  <div class="item__content">
+                    <span class="item__content_icon"></span>
+                    <span class="item__content_name">TOYOTA</span>
+                  </div>
+                </label>
+              </div>
+              <div class="item">
+                <label>
+                  <input type="radio" name="marka">
+                  <div class="item__content">
+                    <span class="item__content_icon"></span>
+                    <span class="item__content_name">LEXUS</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <div class="input_wrapper">
+              <select class="input_text" name="cost">
+                <option>Выберите модель</option>
+                <option value="1">модель</option>
+                <option value="2">модель</option>
+                <option value="3">модель</option>
+              </select>
+            </div>
+
+            <div class="input_wrapper">
+              <select class="input_text" name="cost">
+                <option>Год автомобиля</option>
+                <option value="1">Год</option>
+                <option value="2">Год</option>
+                <option value="3">Год</option>
+              </select>
+            </div>
+
+            <div class="categories_item_bottom_lines"></div>
+
+            <div class="calculation__title">Получить точный расчет стоимости для Вашего автомобиля</div>
+            <div class="input_wrapper">
+              <input type="text" class="input_text" name="name" placeholder="Введите имя">
+            </div>
+
+            <div class="input_wrapper">
+              <input type="text" class="input_text" name="name" placeholder="Введите телефон">
+            </div>
+            <div class="input_wrapper">
+              <a href="#callorder" class="button_2 show_pop_up_window text_center button_full_width_p0"><img src="{$wa_theme_url}assets/site/images/icon_ok.png"> Задать вопрос</a>
+            </div>
+          </div>
+          <div class="calculation__right">
+            <div class="calculation__title">ВАРИАНТ УСЛУГИ:</div>
+            <div class="accessories-filter">
+
+              <div class="accessories-filter__characteristics">
+
+                <div class="item item__full">
+                  <label>
+                    <input type="checkbox" name="characteristics[]">
+                    <div class="item__content">
+                      <span class="item__content_icon"></span>
+                      <span class="item__content_name">Безопасность</span>
+                    </div>
+                  </label>
+                </div>
+
+                <div class="item item__full">
+                  <label>
+                    <input type="checkbox" name="characteristics[]">
+                    <div class="item__content">
+                      <span class="item__content_icon"></span>
+                      <span class="item__content_name">Безопасность</span>
+                    </div>
+                  </label>
+                </div>
+
+                <div class="item item__full">
+                  <label>
+                    <input type="checkbox" name="characteristics[]">
+                    <div class="item__content">
+                      <span class="item__content_icon"></span>
+                      <span class="item__content_name">Безопасность</span>
+                    </div>
+                  </label>
+                </div>
+
+                <div class="item item__full">
+                  <label>
+                    <input type="checkbox" name="characteristics[]">
+                    <div class="item__content">
+                      <span class="item__content_icon"></span>
+                      <span class="item__content_name">Безопасность</span>
+                    </div>
+                  </label>
+                </div>
+
+                <div class="item item__full">
+                  <label>
+                    <input type="checkbox" name="characteristics[]">
+                    <div class="item__content">
+                      <span class="item__content_icon"></span>
+                      <span class="item__content_name">Безопасность</span>
+                    </div>
+                  </label>
+                </div>
+
+                <div class="item item__full">
+                  <label>
+                    <input type="checkbox" name="characteristics[]">
+                    <div class="item__content">
+                      <span class="item__content_icon"></span>
+                      <span class="item__content_name">Безопасность</span>
+                    </div>
+                  </label>
+                </div>
+
+                <div class="item item__full">
+                  <label>
+                    <input type="checkbox" name="characteristics[]">
+                    <div class="item__content">
+                      <span class="item__content_icon"></span>
+                      <span class="item__content_name">Безопасность</span>
+                    </div>
+                  </label>
+                </div>
+
+                <div class="item item__full">
+                  <label>
+                    <input type="checkbox" name="characteristics[]">
+                    <div class="item__content">
+                      <span class="item__content_icon"></span>
+                      <span class="item__content_name">Безопасность</span>
+                    </div>
+                  </label>
+                </div>
+
+                <div class="item item__full">
+                  <label>
+                    <input type="checkbox" name="characteristics[]">
+                    <div class="item__content">
+                      <span class="item__content_icon"></span>
+                      <span class="item__content_name">Безопасность</span>
+                    </div>
+                  </label>
+                </div>
+
+                <div class="item item__full">
+                  <label>
+                    <input type="checkbox" name="characteristics[]">
+                    <div class="item__content">
+                      <span class="item__content_icon"></span>
+                      <span class="item__content_name">Безопасность</span>
+                    </div>
+                  </label>
+                </div>
+
+                <div class="item item__full">
+                  <label>
+                    <input type="checkbox" name="characteristics[]">
+                    <div class="item__content">
+                      <span class="item__content_icon"></span>
+                      <span class="item__content_name">Безопасность</span>
+                    </div>
+                  </label>
+                </div>
+
+                <div class="item item__full">
+                  <label>
+                    <input type="checkbox" name="characteristics[]">
+                    <div class="item__content">
+                      <span class="item__content_icon"></span>
+                      <span class="item__content_name">Безопасность</span>
+                    </div>
+                  </label>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+
+
+      <div class="title_big_lines">Техническое обслуживание</div>
+      <div class="simple_text">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+          mus.</p>
+        <p>Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      </div>
+      <br><br>
+      <div class="headline">Пояснения</div>
+      <div class="filter-sheet__text-group">
+        <p class="filter-sheet__text">З — замена</p>
+        <p class="filter-sheet__text">
+          П — проверка и замена
+          (регулировка, смазка) по необходимости
+        </p>
+        <p class="filter-sheet__text">Р — проверка момента затяжки</p>
+        <p class="filter-sheet__text">С — смазка</p>
+        <p class="filter-sheet__text">О — очистка</p>
+        <p class="filter-sheet__text">
+          Перечень работ и запасных частей к
+          техническому обслуживанию, рекомендованных заводом
+          изготовителем:
+        </p>
+
+      <div class="table_responsive">
+        <div class="input_wrapper">
+          <select class="input_text" id="modSelect" name="modSelect">
+            <option value="">Выберите модель</option>
+            <option value="1">Бензин</option>
+            <option value="2">Турбодизель</option>
+          </select>
+        </div>
+
+        <div class="f-table gas">
+          <div class="f-table__row table_header">
+            <div class="f-table__cell f-table__left">Список работ</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">1 мес.</div>
+              <div class="f-table__cell">10 т. км.</div>
+              <div class="f-table__cell">20 т. км.</div>
+              <div class="f-table__cell">30 т. км.</div>
+              <div class="f-table__cell">40 т. км.</div>
+              <div class="f-table__cell">50 т. км.</div>
+              <div class="f-table__cell">60 т. км.</div>
+              <div class="f-table__cell">70 т. км.</div>
+              <div class="f-table__cell">80 т. км.</div>
+              <div class="f-table__cell">90 т. км.</div>
+              <div class="f-table__cell">100 т. км.</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Проверка, регулировка приводных ремней</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Моторное масло, масляный фильтр
+              двигателя
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка уровня охлаждающей
+              жидкости двигателя, омывателей стекол и фар,
+              гидроусилителя руля
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка узлов и агрегатов
+              автомобиля на предмет утечек и внешних
+              повреждений
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Трубки и соединения системы
+              охлаждения, радиатор<sup>1</sup>
+            </div>
+            <div class="f-table__cell f-table__cell__width_100">
+              Первая проверка
+              при 40000 км, затем 80000 км, затем каждые 20000 км
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Охлаждающая жидкость<sup>2</sup></div>
+            <div class="f-table__cell f-table__cell__width_100">
+              Замена первый
+              раз через 160000 км, затем каждые 80000 км
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка системы выпуска
+              отработавших газов на герметичность
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Свечи зажигания</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Аккумуляторная батарея<sup>3</sup></div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Топливный фильтр</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Воздушный фильтр (включая
+              проверку предочистки, если установлена)
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка крышки топливного бака,
+              топливопроводов
+            </div>
+            <div class="f-table__cell f-table__cell__width_100">
+              Первая проверка при
+              40000 км, затем 80000 км, затем каждые 20000 км
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Проверка адсорбера паров топлива</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка фиксации напольного
+              коврика водителя
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка положения педали тормоза,
+              проверка состояния трубок и шлангов тормозной системы.
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Тормозная система<sup>4</sup></div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка состояния барабанов и
+              колодок стояночного тормоза
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Проверка, замена тормозной жидкости</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Рулевое управление: проверка
+              люфтов, состояния пыльников, легкости вращения рулевого
+              колеса
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Подушки безопасности</div>
+            <div class="f-table__cell f-table__cell__width_100">
+              Первая проверка через
+              120 месяцев с даты первой регистрации автомобиля
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Смазка карданных валов
+              и проверка момента затяжки болтов карданных валов*
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка приводных валов
+              и пыльников приводных валов
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Шарниры подвески, пыльники
+              шарниров, люфт ступичных подшипников
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка жидкости для
+              автоматической трансмиссии
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка масла в
+              раздаточной коробке
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка, замена масла
+              переднего дифференциала
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка, замена масла
+              заднего дифференциала
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Замена жидкости системы контроля
+              уровня подвески**
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З**</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка воздушных камер
+              контроля уровня подвески<sup>5</sup>**
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Шины и давление в шинах</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка наружных и внутренних
+              световых приборов, звукового сигнала, стеклоочистителей
+              и омывателей
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Внутрисалонный фильтр</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">О</div>
+              <div class="f-table__cell">О</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">О</div>
+              <div class="f-table__cell">О</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">О</div>
+              <div class="f-table__cell">О</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">О</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка работы системы
+              кондиционирования и уровня хладагента
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+        </div>
+        <div class="f-table diesel hidden">
+          <div class="f-table__row table_header">
+            <div class="f-table__cell f-table__left">Список работ</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">1 мес.</div>
+              <div class="f-table__cell">10 т. км.</div>
+              <div class="f-table__cell">20 т. км.</div>
+              <div class="f-table__cell">30 т. км.</div>
+              <div class="f-table__cell">40 т. км.</div>
+              <div class="f-table__cell">50 т. км.</div>
+              <div class="f-table__cell">60 т. км.</div>
+              <div class="f-table__cell">70 т. км.</div>
+              <div class="f-table__cell">80 т. км.</div>
+              <div class="f-table__cell">90 т. км.</div>
+              <div class="f-table__cell">100 т. км.</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Проверка, регулировка приводных ремней</div>
+            <div class="f-table__cell f-table__cell__width_100">
+              Первая проверка при
+              100000 км, затем каждые 20000 км
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Моторное масло***</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Масляный фильтр двигателя***</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">З</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка уровня охлаждающей
+              жидкости двигателя, омывателей стекол и фар,
+              гидроусилителя руля
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка узлов и агрегатов
+              автомобиля на предмет утечек и внешних
+              повреждений
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Трубки и соединения системы
+              охлаждения, радиатор<sup>1</sup>
+            </div>
+            <div class="f-table__cell f-table__cell__width_100">
+              Первая проверка
+              при 40000 км, затем 80000 км, затем каждые 20000 км
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Охлаждающая жидкость<sup>2</sup></div>
+            <div class="f-table__cell f-table__cell__width_100">
+              Замена первый
+              раз через 160000 км, затем каждые 80000 км
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка системы выпуска
+              отработавших газов на герметичность
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Шланги для замера давления
+              выхлопных газов в сажевом фильтре DPF
+            </div>
+            <div class="f-table__cell f-table__cell__width_100">Замена каждые 36 мес.</div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Аккумуляторная батарея<sup>3</sup></div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Топливный насос для сдвоенного бака</div>
+            <div class="f-table__cell f-table__cell__width_100">Замена каждые 300000 км</div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Топливный фильтр</div>
+            <div class="f-table__cell f-table__cell__width_100">
+              Заменить, когда на на
+              приборной панели загорится индикация о замене фильтра
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Фильтр-отстойник</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Воздушный фильтр (включая
+              проверку предочистки, если установлена)
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Проверка дымности выхлопных газов<sup>4</sup></div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка крышки топливного бака,
+              топливопроводов
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка фиксации напольного
+              коврика водителя
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка положения педали тормоза,
+              проверка состояния трубок и шлангов тормозной системы.
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Тормозная система<sup>5</sup></div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка состояния барабанов и
+              колодок стояночного тормоза
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Проверка, замена тормозной жидкости</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Рулевое управление: проверка
+              люфтов, состояния пыльников, легкости вращения рулевого
+              колеса
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Подушки безопасности</div>
+            <div class="f-table__cell f-table__cell__width_100">
+              Первая проверка через
+              120 месяцев с даты первой регистрации автомобиля
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Смазка карданных валов
+              и проверка момента затяжки болтов карданных валов*
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+              <div class="f-table__cell">С/Р</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка приводных валов
+              и пыльников приводных валов
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Шарниры подвески, пыльники
+              шарниров, люфт ступичных подшипников
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка жидкости для
+              автоматической трансмиссии
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка масла в
+              раздаточной коробке
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка, замена масла
+              переднего дифференциала
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка, замена масла
+              заднего дифференциала
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Замена жидкости системы контроля
+              уровня подвески**
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">З</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка воздушных камер
+              контроля уровня подвески<sup>6</sup>**
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Шины и давление в шинах</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка наружных и внутренних
+              световых приборов, звукового сигнала, стеклоочистителей
+              и омывателей
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">Внутрисалонный фильтр</div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">О</div>
+              <div class="f-table__cell">О</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">О</div>
+              <div class="f-table__cell">О</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">О</div>
+              <div class="f-table__cell">О</div>
+              <div class="f-table__cell">З</div>
+              <div class="f-table__cell">О</div>
+            </div>
+          </div>
+          <div class="f-table__row">
+            <div class="f-table__cell f-table__left">
+              Проверка работы системы
+              кондиционирования и уровня хладагента
+            </div>
+            <div class="f-table__right f-table-scroll">
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+              <div class="f-table__cell"></div>
+              <div class="f-table__cell">П</div>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <ol>
+          <li>проверка чистоты радиатора, очистка при необходимости, проверка соединения шлангов на предмет правильного расположения, отсутствия коррозии и т. п.</li>
+          <li>в качестве охлаждающей жидкости используйте только «Toyota Super Long Life Coolant», либо ее аналог.</li>
+          <li>проверка зарядки, уровня и плотности электролита, состояния клемм;</li>
+          <li>проверка педали тормоза, состояния тормозных колодок, дисков (кроме стояночного тормоза), суппортов, рычага стояночного тормоза, течей, трубопроводов, шлангов, соединений, суппортов, цилиндров;</li>
+        </ol>
+      </div>
+
+      <div class="title_big_lines">Аксессуары</div>
+      <div class="accessories_items cols-items">
+
+        <div class="accessories_item_block col-lg-3 col-md-2 col-sm-1">
+          <a href="" class="accessories_item_narrow">
+            <div class="accessories_item">
+              <div class="accessories_item_image">
+                <img src="{$wa_theme_url}assets/site/images/17-img.png" alt="">
+              </div>
+              <div class="accessories_item_content">
+                <div class="accessories_item_title">ЗАПЧАСТИ TOYOTA\LEXUS</div>
+                <div class="accessories_item_text">
+                  <div>Lorem Ipsum dolor sit amet</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="accessories_item_block col-lg-3 col-md-2 col-sm-1">
+          <a href="" class="accessories_item_narrow">
+            <div class="accessories_item">
+              <div class="accessories_item_image">
+                <img src="{$wa_theme_url}assets/site/images/17-img.png" alt="">
+              </div>
+              <div class="accessories_item_content">
+                <div class="accessories_item_title">ЗАПЧАСТИ TOYOTA\LEXUS</div>
+                <div class="accessories_item_text">
+                  <div>Lorem Ipsum dolor sit amet</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="accessories_item_block col-lg-3 col-md-2 col-sm-1">
+          <a href="" class="accessories_item_narrow">
+            <div class="accessories_item">
+              <div class="accessories_item_image">
+                <img src="{$wa_theme_url}assets/site/images/17-img.png" alt="">
+              </div>
+              <div class="accessories_item_content">
+                <div class="accessories_item_title">ЗАПЧАСТИ TOYOTA\LEXUS</div>
+                <div class="accessories_item_text">
+                  <div>Lorem Ipsum dolor sit amet</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="accessories_item_block col-lg-3 col-md-2 col-sm-1">
+          <a href="" class="accessories_item_narrow">
+            <div class="accessories_item">
+              <div class="accessories_item_image">
+                <img src="{$wa_theme_url}assets/site/images/17-img.png" alt="">
+              </div>
+              <div class="accessories_item_content">
+                <div class="accessories_item_title">ЗАПЧАСТИ TOYOTA\LEXUS</div>
+                <div class="accessories_item_text">
+                  <div>Lorem Ipsum dolor sit amet</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="accessories_item_block col-lg-3 col-md-2 col-sm-1">
+          <a href="" class="accessories_item_narrow">
+            <div class="accessories_item">
+              <div class="accessories_item_image">
+                <img src="{$wa_theme_url}assets/site/images/17-img.png" alt="">
+              </div>
+              <div class="accessories_item_content">
+                <div class="accessories_item_title">ЗАПЧАСТИ TOYOTA\LEXUS</div>
+                <div class="accessories_item_text">
+                  <div>Lorem Ipsum dolor sit amet</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="accessories_item_block col-lg-3 col-md-2 col-sm-1">
+          <a href="" class="accessories_item_narrow">
+            <div class="accessories_item">
+              <div class="accessories_item_image">
+                <img src="{$wa_theme_url}assets/site/images/17-img.png" alt="">
+              </div>
+              <div class="accessories_item_content">
+                <div class="accessories_item_title">ЗАПЧАСТИ TOYOTA\LEXUS</div>
+                <div class="accessories_item_text">
+                  <div>Lorem Ipsum dolor sit amet</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div id="b23_2_wrapper" class="wrapper_block">
+    <div id="b23_2" class="block b23_2_v2">
+
+      <div class="services-list">
+        <div class="items">
+
+          <div class="item">
+            <div class="item__img">
+              <img src="{$wa_theme_url}assets/site/images/landing-image1.jpg" alt="">
+            </div>
+            <div class="item__content">
+              <div class="title_big_lines">УСТАНОВКА ДОПОЛНИТЕЛЬНОГО ОБОРУДОВАНИЯ</div>
+              <div class="simple_text">
+                <p>1 проверка чистоты радиатора, очистка при необходимости, проверка соединения шлангов на предмет правильного расположения, отсутствия коррозии и т. п. <br> 2 в качестве охлаждающей жидкости используйте только «Toyota Super Long
+                  Life Coolant», либо ее аналог.<br> 3 проверка зарядки, уровня и плотности электро лита, состояния клемм;<br> 4 проверка педали тормоза, состояния тормозных колодок, дисков (кроме стояночного тормоза), суппортов, рычага стояночного
+                  тормоза, течей, трубопроводов, шлангов, соединений, суппортов, цили </p>
+              </div>
+              <a href="#callorder" class="button_2 show_pop_up_window"><img src="{$wa_theme_url}assets/site/images/icon_ok.png"> Записаться на услугу</a>
+            </div>
+          </div>
+
+          <div class="item item--reverse">
+
+            <div class="item__content">
+              <div class="title_big_lines">РЕМОНТ ДВИГАТЕЛЯ - от 35 000 (lexus RX300)</div>
+              <div class="simple_text">
+                <p>Замена головки блока, замена сальников, замена помпы, замена ремня ГРМ, расточка блока цилиндров, замена поршневой группы, шлифовка или же замена коленчатого и распределительного валов. и многое другое.</p>
+              </div>
+              <a href="#callorder" class="button_2 show_pop_up_window"><img src="{$wa_theme_url}assets/site/images/icon_ok.png"> Записаться на услугу</a>
+            </div>
+
+            <div class="item__img">
+              <img src="{$wa_theme_url}assets/site/images/27/banner.png" alt="">
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="item__img">
+              <img src="{$wa_theme_url}assets/site/images/landing-info-image.jpg" alt="">
+            </div>
+            <div class="item__content">
+              <div class="title_big_lines">ЧИП-ТЮНИНГ до +40% МОЩНОСТИ</div>
+              <div class="simple_text">
+                <p>От +15 до +40% мощности, отключение: EGR, катализаторов, доп. насоса воздуха, DPF (Сажевого фильтра). 100% гарантия возврата денежных средств в течении 10 дней. Если вы не почувствуете разницу мы вернем вам всю сумму без бумажной
+                  волокиты.</p>
+              </div>
+              <a href="#callorder" class="button_2 show_pop_up_window"><img src="{$wa_theme_url}assets/site/images/icon_ok.png"> Записаться на услугу</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="title_big_lines">ВСЕ ЕЩЕ НЕ РЕШИЛИСЬ ОТДАТЬ АВТОМОБИЛЬ В СЕРВИС?</div>
+      <div class="comparisons">
+        <div class="items flex">
+
+          <div class="item item__full-title">ПРОЗРАЧНАЯ ЦЕНА</div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/faq.png" alt="">
+            <span>Боитесь, что при обращении вам назовут одну цену, а после ремонта - другую?</span>
+          </div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/icon_checked_red.png" alt="">
+            <span>Вы заранее будете знать, какие работы будут проводиться с Вашим <br>автомобилем, их сроки, какова будет итоговая стоимость работ и запасных частей.</span>
+          </div>
+
+          <div class="item item__full-title">СРОЧНЫЙ РЕМОНТ</div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/faq.png" alt="">
+            <span>Необходим срочный ремонт автомобиля?</span>
+          </div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/icon_checked_red.png" alt="">
+            <span>Все работы по ремонту вашего авто будут выполнены в срок от 1 до 7 дней в зависимости от сложности.</span>
+          </div>
+
+          <div class="item item__full-title">ТОЛЬКО ОПЫТНЫЕ СОТРУДНИКИ</div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/faq.png" alt="">
+            <span>Квалификация работников автосервисов вызывает у вас сомнения?</span>
+          </div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/icon_checked_red.png" alt="">
+            <span>Мы специализируемся на ремонте автомобилей Toyota/Lexus 9 лет и располагаем всем современным диагностическим оборудованием.</span>
+          </div>
+
+          <div class="item item__full-title">СОХРАНЕНИЕ ГАРАНТИИ ПРОИЗВОДИТЕЛЯ</div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/faq.png" alt="">
+            <span>Хотите гарантий на все выполненные работы</span>
+          </div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/icon_checked_red.png" alt="">
+            <span>Мы предоставляем гарантию 12 месяцевна все ремонтные работы и запчасти.</span>
+          </div>
+
+          <div class="item item__full-title">КОМФОРТНОЕ ОЖИДАНИЕ</div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/faq.png" alt="">
+            <span>Хотите с комфортом обслуживать свой автомобиль?</span>
+          </div>
+          <div class="item">
+            <img src="{$wa_theme_url}assets/site/images/icon_checked_red.png" alt="">
+            <span>Чистое и уютное кафе, Wi-Fi, свежий кофе, десерты, цифровое ТВ.</span>
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div class="title_big_lines">КАК МЫ РАБОТАЕМ?</div>
+
+      <div class="cols_items_wrapper">
+        <div class="col-lg-5 col-md-3 col-sm-2 col-xs-1">
+          <div class="col-narrow">
+            <div class="img_item">
+              <div class="img_item_img"><img src="{$wa_theme_url}assets/site/images/27/1.png"></div>
+              <div class="img_item_title">Вы оставляете заявку<br>на получение услуги.</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-3 col-sm-2 col-xs-1">
+          <div class="col-narrow">
+            <div class="img_item">
+              <div class="img_item_img"><img src="{$wa_theme_url}assets/site/images/27/2.png"></div>
+              <div class="img_item_title">Наш менеджер связывается <br>с вами и рассказывает<br> об услугах, которые<br> вам интересны.</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-3 col-sm-2 col-xs-1">
+          <div class="col-narrow">
+            <div class="img_item">
+              <div class="img_item_img"><img src="{$wa_theme_url}assets/site/images/27/3.png"></div>
+              <div class="img_item_title">Вы выбираете удобное<br> для вас время и <br> записываетесь на приём.</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-3 col-sm-2 col-xs-1">
+          <div class="col-narrow">
+            <div class="img_item">
+              <div class="img_item_img"><img src="{$wa_theme_url}assets/site/images/27/4.png"></div>
+              <div class="img_item_title">Вы оставляете машину<br> в нашем сервисном центре<br> на охраняемой парковке.</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-3 col-sm-2 col-xs-1">
+          <div class="col-narrow">
+            <div class="img_item">
+              <div class="img_item_img"><img src="{$wa_theme_url}assets/site/images/27/5.png"></div>
+              <div class="img_item_title">Спустя оговоренное <br> время вы забираете свой <br> обновлённый автомобиль!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div id="content_wrapper" class="wrapper_block">
+    <div id="content" class="block">
+      <div class="title_big_lines">Сохранаяем официальную гарантию</div>
+
+      <div class="categories_items categories_items__v2 cols-items">
+        <div class="categories_item_block col-lg-3 col-md-2 col-sm-1">
+          <div class="categories_item_narrow">
+            <div class="categories_item">
+              <div class="categories_item_image" style="background-image:url('{$wa_theme_url}assets/site/images/categories/default.jpg'); "></div>
+              <div class="categories_item_texts">
+                Возможность возврата к заводским настройкам в любой момент
+              </div>
+              <div class="categories_item_bottom_lines"></div>
+              <div class="categories_item_bottom_red"></div>
+            </div>
+          </div>
+        </div>
+        <div class="categories_item_block categories_items__v2 col-lg-3 col-md-2 col-sm-1">
+          <div class="categories_item_narrow">
+            <div class="categories_item">
+              <div class="categories_item_image" style="background-image:url('{$wa_theme_url}assets/site/images/categories/default.jpg');"></div>
+              <div class="categories_item_texts">
+                Чип-тюнинг безопасен и вносит легко обратимые изменения
+              </div>
+              <div class="categories_item_bottom_lines"></div>
+              <div class="categories_item_bottom_red"></div>
+            </div>
+          </div>
+        </div>
+        <div class="categories_item_block categories_items__v2 col-lg-3 col-md-2 col-sm-1">
+          <div class="categories_item_narrow">
+            <div class="categories_item">
+              <div class="categories_item_image" style="background-image:url('{$wa_theme_url}assets/site/images/categories/default.jpg');"></div>
+              <div class="categories_item_texts">
+                Мощность увеличилась,а платежи остались прежними
+              </div>
+              <div class="categories_item_bottom_lines"></div>
+              <div class="categories_item_bottom_red"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="title_big_lines">ОТЗЫВЫ НАШИХ КЛИЕНТОВ</div>
+      <div class="content_text">
+        <p></p>
+        <p></p>
+        <a class="flamp-widget" href="//novosibirsk.flamp.ru/firm/avtoversiya_ooo_specializirovannyjj_servisnyjj_centr_po_obsluzhivaniyu_i_remontu_avtomobilejj_toyota_i_lexus_oficialnyjj_diler_parttrade_tls_service-70000001006434211"
+          data-flamp-widget-type="responsive-new" data-flamp-widget-id="70000001006434211" data-flamp-widget-width="100%" data-flamp-widget-count="5">Отзывы о нас на Флампе</a>
+        <script>
+          ! function(d, s) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            js = d.createElement(s);
+            js.async = 1;
+            js.src = "//widget.flamp.ru/loader.js";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, "script");
+        </script>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div id="content_wrapper" class="wrapper_block">
+    <div id="content" class="block">
+      <div class="title_big_lines">ЕСТЬ ВОПРОСЫ? МЫ ГОТОВЫ НА НИХ ОТВЕТИТЬ!</div>
+      <div class="accessory-product accessory-product_v2">
+        <div class="accessory-product-wrap clearfix">
+          <div class="accessory-product__image"><span>Иван Иванович <br>Мастер приемщик</span><img src="{$wa_theme_url}assets/site/images/27/man.png" alt="image"></div>
+          <div class="accessory-product__content">
+            <div class="accessory-product-content__inner">
+              <div class="accessory-product__description">
+                <p>Гремит подвеска?<br> Плохо заводится двигатель?<br> Появилась ошибка на панели приборов?</p>
+                <p><strong>Задайте вопрос, наши мастера<br>ответят на него совершенно бесплатно! <br>Или звоните нам по телефону: 111-111-11 и задавайте вопрос лично</strong></p>
+              </div>
+            </div>
+            <div class="accessory-product__bottom clearfix">
+              <a href="#callorder" class="button_2  show_pop_up_window"><img src="{$wa_theme_url}assets/site/images/icon_ok.png"> Задать вопрос</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="script.js">
+
+</script>
+</body>
+
+</html>
