@@ -1194,7 +1194,7 @@ textarea.input_text {
 /*============================== Таблица! =============================*/
 
 
-.table_responsive {
+/* .table_responsive {
     margin-bottom: 20px;
 
 }
@@ -1260,6 +1260,398 @@ textarea.input_text {
 @media (max-width: 768px) {
   .table_responsive .f-table {
     overflow-x: scroll;
+  }
+} */
+
+.application-container .main__text {
+  font: 400 23px/1.3 ToyotaText;
+  font: 400 1.4375rem/1.3 ToyotaText;
+  padding: 0 0 25px;
+  padding: 0 0 1.5625rem;
+  margin: 0;
+  text-align: center;
+}
+.application-container .size-limit {
+  position: relative;
+  max-width: 1170px;
+  max-width: 73.125rem;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding: 0 0.9375rem;
+}
+.application-container .headline {
+  font: 400 17px/1.3 ToyotaTextBold;
+  font: 400 1.0625rem/1.3 ToyotaTextBold;
+  padding: 9px 0;
+  padding: 0.5625rem 0;
+}
+.application-container .resizer-crutch {
+  padding-bottom: 280px;
+  padding-bottom: 17.5rem;
+}
+.application-container .text-bold {
+  font-family: ToyotaTextBold;
+}
+.application-container .text-dark {
+  color: #1e2a32;
+}
+
+.application-container .main-form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.application-container .main-form__item {
+  width: 100%;
+  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
+}
+.application-container .filter-sheet, .application-container .filter-sheet__list {
+  width: 100%;
+}
+.application-container .filter-sheet__text-group {
+  margin-top: 10px;
+  margin-top: 0.625rem;
+  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
+}
+.application-container .filter-sheet__title {
+  font: 400 24px/1.2 ToyotaDisplay;
+  font: 400 1.5rem/1.2 ToyotaDisplay;
+  text-align: center;
+  margin: 0;
+  padding: 44px 0 8px;
+  padding: 2.75rem 0 0.5rem;
+}
+.application-container .filter-sheet__text {
+  margin: 0;
+}
+.application-container .filter-sheet__table-text, .application-container .filter-sheet__text {
+  font: 400 15px/1.2 ToyotaDisplay;
+  font: 400 0.9375rem/1.2 ToyotaDisplay;
+  letter-spacing: -0.013em;
+  color: #6c7073;
+}
+.application-container .filter-sheet__table-text {
+  margin: 20px 0;
+  margin: 1.25rem 0;
+  width: 100%;
+}
+.application-container .select {
+  position: relative;
+  height: 45px;
+  height: 2.8125rem;
+  cursor: pointer;
+  border: 1px solid #bdbfc0;
+  border-radius: 2px;
+  border-radius: 0.125rem;
+  background: transparent;
+  font: 400 15px/2.9 ToyotaText;
+  font: 400 0.9375rem/2.9 ToyotaText;
+}
+.application-container .select:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 18px;
+  top: 1.125rem;
+  right: 15px;
+  right: 0.9375rem;
+  width: 14px;
+  width: 0.875rem;
+  height: 9px;
+  height: 0.5625rem;
+  transition: all 0.3s linear;
+  background: url(arrow-bottom-black.png) no-repeat 50%;
+}
+.application-container .select-disabled {
+  pointer-events: none;
+}
+.application-container .select__text {
+  height: 100%;
+  overflow: hidden;
+  padding: 0 44px 0 16px;
+  padding: 0 2.75rem 0 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.application-container .select__text__gray {
+  color: #b9b9b9;
+}
+.application-container .select__list {
+  position: relative;
+  z-index: 110;
+  top: 3px;
+  top: 0.1875rem;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  max-height: 270px;
+  max-height: 16.875rem;
+  margin: 0 0 15px;
+  margin: 0 0 0.9375rem;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #bdbfc0;
+  border-radius: 2px;
+  border-radius: 0.125rem;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.2);
+}
+.application-container .select__link {
+  display: block;
+  padding: 0 0 0 16px;
+  padding: 0 0 0 1rem;
+  letter-spacing: 0.015em;
+	color: inherit;
+	text-decoration: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  transition: all 0.1s ease-out 0s;
+  cursor: pointer;
+}
+.application-container .select__link:hover {
+  color: #fff;
+  background: #1c2830;
+}
+.application-container .select__link.preventDefault {
+  color: #fff;
+  background: #253540;
+  pointer-events: none;
+}
+.application-container .select_state_open .select__list {
+  visibility: visible;
+  opacity: 1;
+}
+.application-container .select_state_open:after {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.application-container .f-table-scroll {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+}
+.application-container .f-table-scroll .f-table__cell {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  min-width: 60px;
+  min-width: 3.75rem;
+  width: 60px;
+  width: 3.75rem;
+}
+.application-container .tab-content {
+  display: none;
+}
+.application-container .f-table {
+  padding-left: 140px;
+  padding-left: 8.75rem;
+  overflow-x: scroll;
+  margin-top: 25px;
+  margin-top: 1.5625rem;
+  padding-bottom: 13px;
+  padding-bottom: 0.8125rem;
+}
+.application-container .f-table__spacer {
+  display: -ms-flexbox;
+  display: flex;
+}
+.application-container .f-table__spacer.__bigger .f-table__cell {
+  padding: 31px 0;
+  padding: 1.9375rem 0;
+}
+.application-container .f-table__spacer .f-table__cell {
+  padding: 21px 0;
+  padding: 1.3125rem 0;
+  border-width: 0 0 1px !important;
+}
+.application-container .f-table__spacer__hack-for-nth {
+  visibility: hidden;
+  opacity: 0;
+}
+.application-container .f-table__row {
+  display: -ms-flexbox;
+  display: flex;
+  font: 400 15px/1.35 ToyotaDisplay;
+  font: 400 0.9375rem/1.35 ToyotaDisplay;
+}
+.application-container .f-table__row:first-of-type {
+  font: 400 15px/1.35 ToyotaDisplayBold;
+  font: 400 0.9375rem/1.35 ToyotaDisplayBold;
+}
+.application-container .f-table__row:first-of-type .f-table__cell {
+  border-top: 1px solid #ebeced;
+  min-height: 62px;
+  min-height: 3.875rem;
+}
+.application-container .f-table__row:nth-child(odd) .f-table__cell {
+  background: #f5f5f6;
+}
+.application-container .f-table__row:nth-child(odd) .f-table__cell__state_active {
+  background: #cfcfcf;
+}
+.application-container .f-table__row :not(:nth-of-type(1)):not(.f-table__cell__splitted_2) {
+  color: rgba(30, 42, 50, 0.5);
+}
+.application-container .f-table__row .f-table__cell__state_active {
+  color: #111;
+  background: #d7d7d7;
+}
+.application-container .f-table__cell {
+  padding: 10px;
+  padding: 0.625rem;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid #ebeced;
+}
+.application-container .f-table__cell__splitted {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.application-container .f-table__cell__splitted_1 {
+  max-width: none;
+  min-width: unset;
+  border-bottom: 1px solid #ebeced;
+}
+.application-container .f-table__cell__splitted > * {
+  padding: 10px;
+  padding: 0.625rem;
+  width: 100%;
+}
+.application-container .f-table__cell:not(:last-child) {
+  border-right: 1px solid #ebeced;
+}
+.application-container .f-table__cell__width_100 {
+  width: 100% !important;
+  text-align: center;
+}
+.application-container .f-table__left {
+  background: #fff;
+  word-wrap: break-word;
+  max-width: 140px;
+  max-width: 8.75rem;
+  width: 140px;
+  width: 8.75rem;
+  min-width: 140px;
+  min-width: 8.75rem;
+  position: absolute;
+  z-index: 1;
+  left: 15px;
+  left: 0.9375rem;
+}
+.application-container .f-table__right.__price .f-table__cell {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  white-space: pre;
+  padding: 10px 5px;
+  padding: 0.625rem 0.3125rem;
+  text-align: center;
+}
+.application-container .f-table__right.f-table-scroll {
+  position: relative;
+}
+@media (min-width: 640px) {
+  .application-container .main-form__item {
+    width: calc(50% - 7.5px);
+    width: calc(50% - .46875rem);
+  }
+  .application-container .main-form__item:not(.__width_33):nth-child(even) {
+    margin-left: 7.5px;
+    margin-left: 0.46875rem;
+  }
+  .application-container .main-form__item:not(.__width_33):nth-child(odd) {
+    margin-right: 7.5px;
+    margin-right: 0.46875rem;
+  }
+}
+@media (min-width: 768px) {
+  .application-container .main__text {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+  .application-container .f-table {
+    padding-left: 0;
+    overflow-x: inherit;
+  }
+  .application-container .f-table__row:first-of-type .f-table__cell {
+    min-height: 0;
+  }
+  .application-container .f-table__left {
+    position: static;
+    max-width: 220px;
+    max-width: 13.75rem;
+    min-width: 220px;
+    min-width: 13.75rem;
+  }
+  .application-container .f-table__right .f-table__cell {
+    width: 45px;
+    width: 2.8125rem;
+    min-width: 45px;
+    min-width: 2.8125rem;
+  }
+  .application-container .f-table-scroll {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .application-container .main-form__item.__width_33 {
+    width: calc(100% / 3 - 15px);
+    width: calc(100% / 3 - .9375rem);
+  }
+  .application-container .main-form__item.__width_33:nth-child(2) {
+    margin: 0 20px;
+    margin: 0 1.25rem;
+  }
+  .application-container .main-form__item {
+    width: calc(50% - 15px);
+    width: calc(50% - .9375rem);
+  }
+  .application-container .main-form__item:not(.__width_33):nth-child(even) {
+    margin-left: 15px;
+    margin-left: 0.9375rem;
+  }
+  .application-container .main-form__item:not(.__width_33):nth-child(odd) {
+    margin-right: 15px;
+    margin-right: 0.9375rem;
+  }
+}
+@media (min-width: 1024px) {
+  .application-container .f-table__cell__splitted_1 {
+    border-bottom: 0;
+    border-right: 1px solid #ebeced;
+    max-width: 230px;
+    max-width: 14.375rem;
+    min-width: 230px;
+    min-width: 14.375rem;
+  }
+  .application-container .f-table__cell__splitted > * {
+    width: auto;
+    padding: 10px 15px 10px 10px;
+    padding: 0.625rem 0.9375rem 0.625rem 0.625rem;
+  }
+  .application-container .f-table__left {
+    position: static;
+    max-width: 385px;
+    max-width: 24.0625rem;
+    min-width: 385px;
+    min-width: 24.0625rem;
+  }
+}
+@media (max-width: 1024px) {
+  .application-container .f-table__cell__splitted_2 {
+    color: rgba(30, 42, 50, 0.5);
   }
 }
 
