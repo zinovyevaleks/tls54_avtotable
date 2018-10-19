@@ -1,12 +1,4 @@
-// $(function() {
-//   $('#modSelect').change(function() {
-//     $('div.gas').toggleClass("hidden");
-//     $('div.diesel').toggleClass("hidden");
-//   });
-// });
 
-
-  
 // select open/close
 
 $('.select').on('click', function (e) {
